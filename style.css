@@ -1,0 +1,47 @@
+body {
+    color: red;
+    padding: 20px;
+}
+h1 {
+  
+  }
+h2 {
+    line-height: 50px;
+    color: #336699;
+  }
+h2 li {
+    line-height: inherit;
+  }
+#header {
+
+  }
+#container {
+  width: 700px;
+  margin: auto;
+}
+#phrase {
+  margin-top: 100px;
+  height: 50px;
+  }
+#hint {
+  margin-top: 20px;
+  }
+#footer {
+  color: #aaa;
+  margin-top: 100px;
+  padding-top: 5px;
+  border-top: solid 1px;
+  border-color: #ddd;
+  }
+#business li, #market li {
+    display: none;
+  }
+#business li:first-child, #market li:first-child {
+    display: block;
+  }
+#business, #market {
+    background: #336699;
+    color: #fff;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
